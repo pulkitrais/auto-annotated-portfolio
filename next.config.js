@@ -8,7 +8,8 @@ const nextConfig = {
     output: 'export',
     images: {
         unoptimized: true
-    }
+    },
+    basePath: process.env.GITHUB_ACTIONS ? '/auto-annotated-portfolio' : ''
 };
 
 module.exports = nextConfig;
