@@ -65,6 +65,9 @@ No manual redeployment needed - just push and wait ~2 minutes!
 |----------|-------------|-----------------|---------------|
 | **Netlify** | 2-3 min | `[name].netlify.app` | ✅ Free |
 | **Vercel** | 2-3 min | `[name].vercel.app` | ✅ Free |
+| **GitHub Pages** | 5-10 min* | `[username].github.io/[repo]` | ✅ Free |
+
+*Requires additional Next.js static export configuration. See [DEPLOYMENT.md](./DEPLOYMENT.md) for details.
 
 ## Need Help?
 

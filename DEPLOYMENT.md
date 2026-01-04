@@ -71,7 +71,7 @@ GitHub Pages requires additional configuration for Next.js static export.
 4. **Create Deployment Workflow:**
    - Create `.github/workflows/deploy.yml`
    - Add Next.js static export workflow
-   - Your site will be at: `https://[username].github.io/auto-annotated-portfolio`
+   - Your site will be at: `https://[username].github.io/[repository-name]`
 
 ## Local Development & Testing
 
@@ -107,7 +107,7 @@ After deployment, you'll receive a live URL:
 
 - **Netlify:** `https://[your-site-name].netlify.app`
 - **Vercel:** `https://[project-name].vercel.app`
-- **GitHub Pages:** `https://[username].github.io/auto-annotated-portfolio`
+- **GitHub Pages:** `https://[username].github.io/[repository-name]`
 
 ## Custom Domain (Optional)
 
