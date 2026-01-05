@@ -126,24 +126,6 @@ sections:
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        title: Item Title
-        subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        featuredImage:
-          type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: Item image
-          caption: Caption of the image
-          elementId: ''
-        elementId: ''
-        styles:
-          self:
-            textAlign: left
     columns: 3
     spacingX: 120
     spacingY: 16
@@ -172,7 +154,7 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Linux Tools
       - type: Label
         label: React
       - type: Label
@@ -202,8 +184,9 @@ sections:
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
-    text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+    text: |+
+      [pulkitonwork@gmail.com](mailto:thisismyemail.@myemail.me)
+
   - type: DividerSection
     styles:
       self:
@@ -220,43 +203,33 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
+        text: |+
           **Current**
 
-          * freelance @freelance.me
+          *   learning Digital Forensics and AI\&ML too.
 
-          **2018-2021**
+          **2024 (july-sep)**
 
-          * fullstack at this startup
+          *   Summer Internship at Zscaler
 
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: |+
+          **2022-2026**
 
-          * ba computer sciense at a semi fancy school
+          *   Btech CSE (CyberSecurity & Digital Forensics)
 
-          **2014**
+          **2022**
 
-          * react certificate somewhere
+          *
 
-          **2011**
+          **2021**
 
-          * my highschool
+          *   12th - 71%
+
         styles:
           self:
             textAlign: left
@@ -284,65 +257,4 @@ sections:
           - pr-4
         borderWidth: 1
         borderStyle: solid
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        self:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        flexDirection: row
-        textAlign: left
 ---
