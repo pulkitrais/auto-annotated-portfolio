@@ -1,5 +1,7 @@
 # Netlify Developer Portfolio Starter (auto-annotated)
 
+> **🔗 Want a live link right now?** See [GET-YOUR-LINK.md](./GET-YOUR-LINK.md) for instant deployment options!
+
 ![Developer Portfolio](https://assets.stackbit.com/docs/personal-nextjs-starter-thumb.png)
 
 This is a full-fledged portfolio website built with Next.js, Tailwind CSS, [visual editor](https://docs.netlify.com/visual-editor/overview/) and the [Git Content Source](https://docs.netlify.com/create/content-sources/git/).
@@ -13,11 +15,29 @@ The codebase showcases **how to apply annotations at scale**, meaning: how to ma
 
 **⚡ Demo:** [auto-annotated-portfolio.netlify.app](https://auto-annotated-portfolio.netlify.app)
 
+## 🚀 Quick Deploy - Get Your Live Link
+
+Want to get your portfolio live right now? Choose one of these options:
+
+### Deploy to Netlify (2 minutes)
+1. Click the "Deploy to Netlify" button below
+2. Sign in with GitHub (free)
+3. Click "Save & Deploy"
+4. Get your live link: `https://[your-site-name].netlify.app`
+
+### Deploy to Vercel (2 minutes)
+1. Visit [vercel.com/new](https://vercel.com/new)
+2. Import this repository
+3. Click "Deploy"
+4. Get your live link: `https://[project-name].vercel.app`
+
+📖 **Need more details?** See the complete [Deployment Guide](./DEPLOYMENT.md) for step-by-step instructions, troubleshooting, and custom domain setup.
+
 ## Deploying to Netlify
 
-If you click "Deploy to Netlify" button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+If you click "Deploy to Netlify" button, it will deploy this repository directly to Netlify and give you a live link.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/auto-annotated-portfolio)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pulkitrais/auto-annotated-portfolio)
 
 ## Getting Started
 
