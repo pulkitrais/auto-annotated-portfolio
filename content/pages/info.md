@@ -118,7 +118,7 @@ sections:
           - type: Link
             label: Reddit
             altText: ''
-            url: '/https://www.reddit.com/user/pulkit-rai/'
+            url: 'https://www.reddit.com/user/pulkit-rai/'
             showIcon: false
             icon: arrowRight
             iconPosition: right
