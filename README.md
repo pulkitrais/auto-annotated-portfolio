@@ -19,6 +19,20 @@ If you click "Deploy to Netlify" button, it will create a new repo for you that 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/auto-annotated-portfolio)
 
+## Deploying to GitHub Pages
+
+This portfolio is also configured for deployment to GitHub Pages. The site will automatically build and deploy when you push to the `main` branch.
+
+### Setup GitHub Pages
+
+1. Go to your repository settings on GitHub
+2. Navigate to **Settings > Pages**
+3. Under **Source**, select **GitHub Actions**
+4. Push your changes to the `main` branch
+5. The GitHub Actions workflow will automatically build and deploy your site
+
+Your portfolio will be available at `https://<username>.github.io/<repository-name>/`
+
 ## Getting Started
 
 The typical development process is to begin by working locally. Clone this repository, then run `npm install` in its root directory.
